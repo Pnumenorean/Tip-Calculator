@@ -8,7 +8,7 @@ tip = int(input("How much tip would you like to give? 15, 18, or 20?: "))
 # Assigning the total people as an interger to the people variable
 people = int(input("How many people are splitting the bill?: "))
 
-# Calculatin the total bill
+# Calculating the total bill
 total_bill = tip / 100 * bill + bill
 # Calculating the total each person has to pay
 bill_per_person = total_bill / people
