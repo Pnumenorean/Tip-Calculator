@@ -13,7 +13,7 @@ total_bill = tip / 100 * bill + bill
 # Calculating the total each person has to pay
 bill_per_person = total_bill / people
 # Rounding what each person has to pay to 2 decimal places
-final_amount = round(bill_per_person, 2)
+final_amount = "{:.2f}".format(bill_per_person)
 
 # String outputting the amount each person has to pay
 print(f"Each person should pay: ${final_amount}")
